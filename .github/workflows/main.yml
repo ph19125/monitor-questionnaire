@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          repository: 'ph19125/monitor-questionnaire'
+          persist-credentials: false
 
       - name: Build and deploy
         uses: peaceiris/actions-gh-pages@v3
