@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          repository: 'ph19125/monitor-questionnaire'
 
       - name: Build and deploy
         uses: peaceiris/actions-gh-pages@v3
